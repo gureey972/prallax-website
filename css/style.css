@@ -1,0 +1,53 @@
+body , html {
+    height: 100%;
+    margin: 0;
+}
+.prallax1, .prallax2, .prallax3, .prallax4 {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.text {
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.body {
+    background-color:#111;
+    color:#fff;
+    padding:20px
+
+}
+
+
+.prallax1 {
+    background-image: url('../images/1.jpg');
+    min-height: 600px;
+}
+
+.prallax2 {
+    background-image: url('../images/2.jpg');
+    min-height: 400px;
+}
+
+
+.prallax3 {
+    background-image: url('../images/3.jpg');
+    min-height: 300px;
+}
+
+
+.prallax4 {
+    background-image: url('../images/1.jpg');
+    min-height: 600px;
+}
+
